@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejemplo Técnico HTML y CSS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador web en formación con interés en interfaces responsivas y accesibles.</p>
+    </section>
+
+    <section id="proyectos" class="grid">
+      <article>
+        <h3>Proyecto 1</h3>
+        <img src="https://via.placeholder.com/300" alt="Proyecto 1 optimizado" loading="lazy" />
+        <p>Descripción del proyecto 1.</p>
+      </article>
+      <article>
+        <h3>Proyecto 2</h3>
+        <img src="https://via.placeholder.com/300" alt="Proyecto 2 optimizado" loading="lazy" />
+        <p>Descripción del proyecto 2.</p>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Mi sitio web</p>
+  </footer>
+</body>
+</html>
